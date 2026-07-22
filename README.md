@@ -66,12 +66,16 @@ The primary objectives of MarketLens are to:
 
 The dashboard highlights four headline KPIs:
 
-  KPI                                                    Value
-  --------------------------------------- --------------------
-  **Total Revenue / Transaction Value**            **\$4.67M**
-  **Transactions Analyzed**                           **238K**
-  **Average Transaction Value**                    **\$19.62**
-  **Highlighted Product SKU**               **GGOENEBJ079499**
+| KPI                       |    Extracted value | Meaning                                              |
+| ------------------------- | -----------------: | ---------------------------------------------------- |
+| Total Revenue / Sales     |         **$4.67M** | Overall monetary value generated                     |
+| Total Transactions        |           **238K** | Total transaction volume represented in the analysis |
+| Average Transaction Value |         **$19.62** | Average value per transaction                        |
+| Best/Top Product SKU      | **GGOENEBJ079499** | Product SKU highlighted as a leading performer       |
+
+
+
+
 
 These KPIs provide an immediate overview of the scale, transaction
 activity, average consumer spend, and product performance represented in
