@@ -46,14 +46,14 @@ The primary objectives of MarketLens are to:
   **Tableau**                         Data visualization, interactive
                                       dashboard development, KPI
                                       reporting, and visual storytelling
-
+                                      
+  **Excel**                           Source-data preparation, validation, 
+                                      and preliminary data inspection
+                                      
   **MySQL / SQL**                     Data storage, querying,
                                       transformation, and analytical
                                       exploration
-
-  **Excel**                           Source-data preparation,
-                                      validation, and preliminary data
-                                      inspection
+                                      
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -310,10 +310,6 @@ MarketLens/
 └── docs/
     └── project-insights.pdf
 ```
-
-> Do not upload confidential or restricted datasets. If the original
-> dataset cannot be redistributed, include a source/reference file and
-> instructions for obtaining it instead.
 
 ------------------------------------------------------------------------
 
