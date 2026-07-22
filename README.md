@@ -21,7 +21,7 @@ The dashboard is structured as an end-to-end analytical journey:
 **Customer Demographics → Transaction Patterns → Geographic Spending →
 Top Spenders → Coupon Engagement → Business Recommendations**
 
-------------------------------------------------------------------------
+
 
 ## 🎯 Project Objectives
 
@@ -36,13 +36,9 @@ The primary objectives of MarketLens are to:
 -   Translate analytical findings into practical business
     recommendations.
 
-------------------------------------------------------------------------
+
 
 ## 🛠️ Tech Stack
-
-  -----------------------------------------------------------------------
-  Technology                          Purpose
-  ----------------------------------- -----------------------------------
   **Tableau**                         Data visualization, interactive
                                       dashboard development, KPI
                                       reporting, and visual storytelling
@@ -54,9 +50,8 @@ The primary objectives of MarketLens are to:
                                       transformation, and analytical
                                       exploration
                                       
-  -----------------------------------------------------------------------
 
-------------------------------------------------------------------------
+
 
 ## 📊 Dashboard Snapshot
 
@@ -82,7 +77,7 @@ These KPIs provide an immediate overview of the scale, transaction
 activity, average consumer spend, and product performance represented in
 the analysis.
 
-------------------------------------------------------------------------
+
 
 ## 📈 Dashboard Analysis
 
@@ -103,7 +98,6 @@ opportunities for customer segmentation?
 Demographic segmentation can support more relevant campaigns, retention
 strategies, and location-specific customer engagement.
 
-------------------------------------------------------------------------
 
 ### 2. Analyzing Transaction Patterns
 
@@ -123,7 +117,7 @@ Comparing value with quantity helps distinguish high-volume categories
 from high-value categories and supports better merchandising and
 promotional decisions.
 
-------------------------------------------------------------------------
+
 
 ### 3. Comparing Monthly Spending Across Locations
 
@@ -142,7 +136,6 @@ locations may require additional marketing attention?
 Geographic analysis enables localized marketing, regional budget
 allocation, and more targeted growth strategies.
 
-------------------------------------------------------------------------
 
 ### 4. Identifying Top Spenders
 
@@ -161,7 +154,7 @@ Identifying high-value consumers supports VIP segmentation, personalized
 offers, loyalty programs, retention campaigns, and cross-selling
 opportunities.
 
-------------------------------------------------------------------------
+
 
 ### 5. Analyzing Coupon Engagement
 
@@ -181,7 +174,6 @@ Coupon analysis helps businesses avoid uniform discounting and instead
 focus incentives on the customers, categories, and periods where
 promotions are most effective.
 
-------------------------------------------------------------------------
 
 ## 💡 Key Insights
 
@@ -204,7 +196,7 @@ The dashboard reveals several important analytical themes:
 -   High-performing customer and product segments provide opportunities
     for personalized recommendations, bundling, and cross-selling.
 
-------------------------------------------------------------------------
+
 
 ## 💼 Business Recommendations
 
