@@ -443,7 +443,7 @@ Potential improvements include:
 
 Aspiring Data Analyst \| SQL \| Tableau \| Power BI \| Python \| Excel
 
--   **GitHub:** `Add your GitHub profile link`
+-   **GitHub:** https://github.com/Rahul-kumar9990/MarketLens-Consumer-Spending-and-Engagement-Dashboard
 -   **LinkedIn:** `Add your LinkedIn profile link`
 -   **Tableau Public:** `Add your Tableau Public profile link`
 
