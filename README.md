@@ -1,84 +1,476 @@
-# MarketLens-Consumer-Spending-and-Engagement-Dashboard
-In an era dominated by online commerce, understanding customer behavior is paramount. This project delves into the dynamics of online shopping, aiming to extract actionable insights from a comprehensive dataset.
+# MarketLens: Consumer Spending and Engagement Dashboard
 
-## Project Overview
-### Dataset:
-The project utilized the "Online Shopping Dataset" sourced from Kaggle. This dataset contains comprehensive information, including customer demographics, transaction details, product descriptions, and more. It played a crucial role as the foundation for exploring various aspects of online shopping behavior.
+> An interactive Tableau analytics project that transforms consumer
+> transaction data into actionable insights on customer demographics,
+> spending behavior, geographic trends, high-value customers, product
+> performance, and coupon engagement.
 
-Dataset Source: ['🛒 Online Shopping Dataset 📊📉📈'](https://www.kaggle.com/datasets/jacksondivakarr/online-shopping-dataset/data)
+## 📌 Project Overview
 
-### Project Objective(s):
-The Online Shopping Analytics project aims to gain actionable insights into customer behavior and transactional patterns within the context of the online shopping dataset. The primary objective was to understand various dynamics, including customer demographics, product popularity, spending patterns, and engagement with promotional activities such as coupons.
+**MarketLens** is a consumer analytics and business intelligence project
+designed to uncover how customers shop, spend, and engage with
+promotions across different locations and product categories.
 
-### Exploration Questions:
-The project aimed to address key questions related to online shopping behavior:
-  - What are the demographics of online shoppers, and how is the platform utilized by different genders and locations?
-  - Which products or product categories are most popular among customers?
-  - How do spending patterns vary throughout the year, and what role do discounts and coupons play?
-  - Who are the highest spending customers, and what are their preferences?
+The project uses **Tableau** to convert transactional data into an
+interactive visual story, enabling users to explore customer
+demographics, transaction patterns, monthly spending trends, top
+spenders, geographic performance, and coupon effectiveness.
 
-### Tools and Technologies:
-The project utilized the following tools and technologies:
-  - **SQL (Structured Query Language):** The primary language used for data manipulation, exploration, and analysis.
-  - **SQL Server Management Studio (SSMS):** For database creation, data parsing, and initial data exploration.
-  - **Tableau:** For creating a variety of visualizations and interactive dashboards based on SQL query findings.
-  - **Excel:** While not directly used in the project, the dataset obtained from Kaggle was in Excel format, serving as the initial file type for data exploration.
+The dashboard is structured as an end-to-end analytical journey:
 
-This combination of tools facilitated a comprehensive approach to the analysis, from database creation and exploration using SQL to visual representation and interactive dashboards in Tableau. The dataset's initial format in Excel underscored the importance of diverse tools in handling and extracting insights from real-world datasets.
+**Customer Demographics → Transaction Patterns → Geographic Spending →
+Top Spenders → Coupon Engagement → Business Recommendations**
 
-## Approach
-1. Obtained the online shopping dataset in Excel format from Kaggle, encompassing customer demographics, transaction details, and product descriptions.
-2. Created a relational database in SQL Server Management Studio (SSMS) using SQL queries to establish tables for Customer, Product, and Transactions.
-3. Imported the Kaggle dataset into SSMS and utilized SQL queries to parse the data into their respective tables.
-4. Ensured data quality and consistency by addressing any missing or inconsistent values.
-5. Conducted a comprehensive exploration of the dataset using SQL queries.
-   - Examined key attributes, identified patterns, and gained insights into customer demographics, product popularity, and transactional patterns.
-6. Transitioned the database to Tableau for developing insightful visualizations based on SQL query findings.
-7. Developed a variety of visualizations, including bar graphs, area graphs, and packed bubble charts.
-8. Grouped visualizations into dashboards focusing on key aspects such as customer demographics, sales analysis, location insights, consumer spending, and coupon engagement.
+------------------------------------------------------------------------
 
-This approach involves a systematic progression from dataset acquisition to database development, data import, exploration, and visualization. Each step contributes to a cohesive and user-friendly understanding of the online shopping behavior in this dataset.
+## 🎯 Project Objectives
 
-## Data Visualizations
-Transitioning to Tableau, the SQL query findings were used as a basis to create a variety of visualizations. Each visualization aimed to reveal patterns, trends, and relationships within the dataset. Notable visualizations included:
-  - **Bar Graphs:** Customer demographics, total sales by product category, highest spending consumer analysis.
-  - **Area and Bar Graphs:** Average discount percentage vs total sales throughout the year.
-  - **Packed Bubble Chart:** Total spending distribution across locations.
-  - **Treemaps:** Product categories by total sales.
+The primary objectives of MarketLens are to:
 
-The individual visualizations were grouped into five interactive dashboards:
-  - **Customer Demographic Dashboard:** Highlights gender distribution by location.
-  - **Sales Analysis Dashboard:** Analyzes total sales by product category, transactional patterns, and customer distribution by gender and tenure range.
-  - **Location Analysis Dashboard:** Explores total spending distribution across locations and product categories.
-  - **Consumer Spending Dashboard:** Focuses on the highest spending consumers and their product breakdown.
-  - **Coupon Engagement Dashboard:** Analyzes coupon engagement by percentage and throughout the year.
+-   Understand customer demographics and tenure patterns.
+-   Analyze consumer spending and transaction behavior.
+-   Compare monthly spending trends across geographic locations.
+-   Identify high-value customers and major spending segments.
+-   Evaluate product/category performance.
+-   Measure coupon usage and promotional engagement.
+-   Translate analytical findings into practical business
+    recommendations.
 
-After receiving feedback, the five dashboards have been consolidated into a comprehensive hub:
-  - **Online Shopping Insights Hub:** Integrates all five dashboards into a single interface, offering in-depth analysis of insights and patterns.
-    
-Each dashboard provides an interactive user experience, allowing users to explore and highlight factors they deem important. To interact with the dashboards visit: ['Tableau Public'](https://public.tableau.com/app/profile/jordan.ho1006/viz/online_shopping_analytics_v2/OnlineShoppingInsightsHubv2)
+------------------------------------------------------------------------
 
-## Files Included
-  - ['Individual Visualizations'](https://github.com/jordanho1006/sql-tableau-projects/tree/main/Online%20Shopping%20Analytics%20Project/Individual%20Visualizations): The individual visualizations created in Tableau based on SQL query findings.
-  - ['Dashboards'](https://github.com/jordanho1006/sql-tableau-projects/tree/main/Online%20Shopping%20Analytics%20Project/Dashboards): The interactive dashboards created on Tableau. *Note: These are just images of the interactive dashboards*
-  - ['README.md'](https://github.com/jordanho1006/sql-tableau-projects/blob/main/Online%20Shopping%20Analytics%20Project/README.md): This file provides an overview of the project.
-  - ['create_database.sql'](https://github.com/jordanho1006/sql-tableau-projects/blob/main/Online%20Shopping%20Analytics%20Project/create_database_v2.sql): The Raw SQL query for constructing the relational database.
-  - ['analyze_data.sql'](https://github.com/jordanho1006/sql-tableau-projects/blob/main/Online%20Shopping%20Analytics%20Project/analyze_data_v2.sql): The Raw SQL query for extensive dataset exploration.
-  - ['er-diagram.png'](https://github.com/jordanho1006/sql-tableau-projects/blob/main/Online%20Shopping%20Analytics%20Project/er_diagram.PNG): This file provides a simple ER diagram depicting the relational database structure.
-  - ['online_shopping_analytics.twbx'](https://github.com/jordanho1006/sql-tableau-projects/blob/main/Online%20Shopping%20Analytics%20Project/online_shopping_analytics_v2.twbx): This Tableau file compromises all the data visualizations and interactive dashboards.
-    
-## Conclusion
-**Customer Demographic:**
-The Customer Demographic Dashboard reveals a notable gender distribution, with a significant skew towards females across all locations. Additionally, female customers exhibit a longer average tenure on the platform compared to their male counterparts. Further exploration is recommended to understand the gender distribution concerning specific product categories.
+## 🛠️ Tech Stack
 
-**Sales Analysis:**
-The Sales Analysis Dashboard uncovers that office items dominate in terms of the number of sales, constituting 37% of the platform's total sales. Surprisingly, offline spending contributes significantly to the overall customer expenditure, meaning that in-store sales are still superior to online sales. Contrary to initial assumptions, the correlation between discounts and total sales or customer spending is not as substantial.
+  -----------------------------------------------------------------------
+  Technology                          Purpose
+  ----------------------------------- -----------------------------------
+  **Tableau**                         Data visualization, interactive
+                                      dashboard development, KPI
+                                      reporting, and visual storytelling
 
-**Location Analysis:**
-The Location Analysis Dashboard highlights the outstanding performance of Chicago and California compared to New York, New Jersey, and Washington D.C. Interestingly, apparels emerge as the leading category in terms of total spending in Chicago and California, contrary to the fact that office items are the most frequently purchased.
+  **MySQL / SQL**                     Data storage, querying,
+                                      transformation, and analytical
+                                      exploration
 
-**Consumer Spending:**
-Examining the Consumer Spending Dashboard reveals that the highest spending customers predominantly invest in apparel, Nest, office, and drinkware items. This aligns well with the findings in other dashboards concerning product categories.
+  **Excel**                           Source-data preparation,
+                                      validation, and preliminary data
+                                      inspection
+  -----------------------------------------------------------------------
 
-**Coupon Engagement:**
-The Coupon Engagement Analysis indicates that the coupon usage rate remains relatively constant throughout the year, despite fluctuations in the number of coupons clicked, peaking in August. This suggests that the current coupon discounts may not be compelling enough to significantly impact customer purchasing behavior.
+------------------------------------------------------------------------
+
+## 📊 Dashboard Snapshot
+
+![MarketLens Dashboard](images/marketlens-dashboard.png)
+
+> Add your exported Tableau dashboard image to
+> `images/marketlens-dashboard.png` to display it here.
+
+------------------------------------------------------------------------
+
+## 🔢 Key Performance Indicators
+
+The dashboard highlights four headline KPIs:
+
+  KPI                                                    Value
+  --------------------------------------- --------------------
+  **Total Revenue / Transaction Value**            **\$4.67M**
+  **Transactions Analyzed**                           **238K**
+  **Average Transaction Value**                    **\$19.62**
+  **Highlighted Product SKU**               **GGOENEBJ079499**
+
+These KPIs provide an immediate overview of the scale, transaction
+activity, average consumer spend, and product performance represented in
+the analysis.
+
+------------------------------------------------------------------------
+
+## 📈 Dashboard Analysis
+
+### 1. Understanding Customer Demographics
+
+This section explores the composition of the customer base using
+demographic and tenure-related attributes.
+
+**Visualizations include:** - Gender distribution across locations -
+Customer tenure comparison across demographic groups
+
+**Questions answered:** - Which locations contain the largest customer
+populations? - How does gender distribution vary geographically? - Which
+customer groups demonstrate stronger tenure? - Where are the strongest
+opportunities for customer segmentation?
+
+**Business value:**\
+Demographic segmentation can support more relevant campaigns, retention
+strategies, and location-specific customer engagement.
+
+------------------------------------------------------------------------
+
+### 2. Analyzing Transaction Patterns
+
+This section examines purchasing activity to understand how transaction
+value and product demand vary across categories and over time.
+
+**Visualizations include:** - Total value vs. units sold by product
+category - Transaction trends over time
+
+**Questions answered:** - Which categories generate the strongest
+monetary contribution? - Which categories have the highest unit
+demand? - How does transaction activity change over time? - Are there
+visible peaks, declines, or seasonal patterns?
+
+**Business value:**\
+Comparing value with quantity helps distinguish high-volume categories
+from high-value categories and supports better merchandising and
+promotional decisions.
+
+------------------------------------------------------------------------
+
+### 3. Comparing Monthly Spending Across Locations
+
+This section analyzes geographic differences in consumer spending and
+tracks how those patterns change month by month.
+
+**Visualizations include:** - Monthly spending trend by location -
+Geographic packed-bubble analysis - Regional/location contribution share
+
+**Questions answered:** - Which locations generate the highest
+spending? - How does spending fluctuate throughout the year? - Which
+markets contribute the largest share of consumer value? - Which
+locations may require additional marketing attention?
+
+**Business value:**\
+Geographic analysis enables localized marketing, regional budget
+allocation, and more targeted growth strategies.
+
+------------------------------------------------------------------------
+
+### 4. Identifying Top Spenders
+
+This section focuses on high-value consumers and spending concentration.
+
+**Visualizations include:** - Customer spending and purchasing activity
+comparison - Ranked top-spender analysis - Spending by product/category
+
+**Questions answered:** - Who are the highest-value customers? - How
+concentrated is consumer spending among top customers? - Which
+categories attract the greatest spending? - Where are opportunities for
+loyalty and personalized engagement?
+
+**Business value:**\
+Identifying high-value consumers supports VIP segmentation, personalized
+offers, loyalty programs, retention campaigns, and cross-selling
+opportunities.
+
+------------------------------------------------------------------------
+
+### 5. Analyzing Coupon Engagement
+
+This section evaluates how consumers interact with coupons and
+promotional incentives.
+
+**Visualizations include:** - Coupon usage by month - Coupon engagement
+across product categories - Promotional performance trends
+
+**Questions answered:** - When is coupon engagement strongest? - Which
+categories respond best to promotional offers? - Are coupons equally
+effective across all periods and segments? - Where can promotional
+spending be optimized?
+
+**Business value:**\
+Coupon analysis helps businesses avoid uniform discounting and instead
+focus incentives on the customers, categories, and periods where
+promotions are most effective.
+
+------------------------------------------------------------------------
+
+## 💡 Key Insights
+
+The dashboard reveals several important analytical themes:
+
+-   Consumer behavior differs meaningfully across geographic locations
+    and demographic segments.
+-   Spending is concentrated among selected high-value customers,
+    creating opportunities for targeted retention and loyalty
+    strategies.
+-   Product categories differ in both transaction value and purchase
+    volume, making category-level analysis important for
+    decision-making.
+-   Monthly spending patterns vary across locations, supporting
+    localized rather than one-size-fits-all marketing.
+-   A small number of geographic and customer segments contribute a
+    comparatively large share of overall value.
+-   Coupon engagement varies by month and product category, indicating
+    that promotional effectiveness depends on timing and targeting.
+-   High-performing customer and product segments provide opportunities
+    for personalized recommendations, bundling, and cross-selling.
+
+------------------------------------------------------------------------
+
+## 💼 Business Recommendations
+
+Based on the dashboard analysis, the following actions can support
+stronger business decisions:
+
+1.  **Develop localized campaigns**\
+    Customize promotions according to regional spending behavior instead
+    of applying identical campaigns across every location.
+
+2.  **Prioritize high-value customers**\
+    Build loyalty programs, personalized offers, and retention campaigns
+    for customers contributing disproportionately to overall spending.
+
+3.  **Optimize product strategy**\
+    Focus merchandising and promotional resources on categories with
+    strong combinations of consumer demand and monetary contribution.
+
+4.  **Use personalized bundling and cross-selling**\
+    Recommend complementary products based on the purchasing behavior of
+    high-value customer segments.
+
+5.  **Refine coupon strategy**\
+    Target coupons toward periods, categories, and customer groups with
+    stronger promotional responsiveness.
+
+6.  **Use monthly trends for campaign planning**\
+    Align inventory, marketing, and promotional activity with periods of
+    stronger consumer demand.
+
+7.  **Strengthen geographic targeting**\
+    Invest differently across high-performing and underperforming
+    locations based on their spending potential and customer engagement.
+
+------------------------------------------------------------------------
+
+## 🧩 Dashboard Design
+
+The Tableau dashboard uses multiple visualization techniques to
+communicate insights effectively:
+
+-   KPI cards
+-   Stacked bar charts
+-   Grouped bar charts
+-   Horizontal ranked bar charts
+-   Line charts
+-   Area/combination charts
+-   Packed bubble charts
+-   Pie charts
+-   Category comparisons
+-   Geographic segmentation
+-   Interactive filtering and visual exploration
+
+The visual story is organized into clearly defined analytical sections
+so that users can move from a high-level business overview to detailed
+customer and promotional insights.
+
+------------------------------------------------------------------------
+
+## 🔍 Analytical Workflow
+
+``` text
+Raw Consumer & Transaction Data
+            ↓
+Data Validation and Preparation
+            ↓
+SQL-Based Exploration / Transformation
+            ↓
+KPI Definition
+            ↓
+Tableau Data Connection
+            ↓
+Calculated Fields & Visual Analysis
+            ↓
+Interactive Dashboard Development
+            ↓
+Insight Generation
+            ↓
+Business Recommendations
+```
+
+------------------------------------------------------------------------
+
+## 🗂️ Suggested Repository Structure
+
+``` text
+MarketLens/
+│
+├── README.md
+├── data/
+│   └── dataset.csv
+│
+├── sql/
+│   └── marketlens_analysis.sql
+│
+├── tableau/
+│   └── MarketLens.twbx
+│
+├── images/
+│   ├── marketlens-dashboard.png
+│   └── dashboard-preview.png
+│
+└── docs/
+    └── project-insights.pdf
+```
+
+> Do not upload confidential or restricted datasets. If the original
+> dataset cannot be redistributed, include a source/reference file and
+> instructions for obtaining it instead.
+
+------------------------------------------------------------------------
+
+## 📐 Important Metrics
+
+### Total Transaction Value
+
+Represents the overall monetary value captured by the dashboard.
+
+### Transaction Count
+
+Measures the volume of transactions analyzed in the project.
+
+### Average Transaction Value
+
+``` text
+Average Transaction Value = Total Transaction Value / Total Transactions
+```
+
+This metric helps evaluate the average monetary contribution per
+transaction.
+
+### Customer Spending
+
+Used to rank consumers and identify high-value customer segments.
+
+### Coupon Engagement
+
+Measures promotional participation across time periods and product
+categories.
+
+------------------------------------------------------------------------
+
+## 📖 Business Questions Addressed
+
+MarketLens was designed around practical analytical questions:
+
+-   What does the customer base look like across demographics and
+    locations?
+-   Which geographic markets contribute the most consumer spending?
+-   How does spending change month by month?
+-   Which customers contribute the greatest value?
+-   Which product categories perform strongly by value and volume?
+-   How concentrated is spending among top consumers?
+-   How does coupon engagement change across months?
+-   Which categories respond most strongly to promotional activity?
+-   Where should the business focus retention, personalization, and
+    promotional efforts?
+
+------------------------------------------------------------------------
+
+## 🎓 Skills Demonstrated
+
+This project demonstrates practical junior data analyst / BI skills in:
+
+-   Data cleaning and validation
+-   SQL querying and relational data analysis
+-   Exploratory data analysis
+-   KPI development
+-   Consumer behavior analysis
+-   Customer segmentation
+-   Trend analysis
+-   Geographic analysis
+-   Promotional effectiveness analysis
+-   Tableau dashboard development
+-   Data visualization
+-   Business storytelling
+-   Insight generation
+-   Translating data into actionable recommendations
+
+------------------------------------------------------------------------
+
+## 🚀 How to Use the Project
+
+1.  Clone or download this repository.
+2.  Review the dataset and data dictionary in the `data/` directory.
+3.  Run the SQL analysis from the `sql/` directory if applicable.
+4.  Open `MarketLens.twbx` using Tableau Desktop or Tableau Public.
+5.  Refresh or reconnect the data source if required.
+6.  Use dashboard filters and visual interactions to explore customer,
+    geographic, product, and coupon patterns.
+
+------------------------------------------------------------------------
+
+## 🌐 Live Dashboard
+
+**Tableau Public:**\
+`Add your Tableau Public dashboard link here`
+
+------------------------------------------------------------------------
+
+## 📂 Dataset
+
+**Dataset Source:**\
+`Add the original dataset/Kaggle/source link here`
+
+The analysis uses consumer, transaction, product, geographic, and
+coupon-related attributes to build a multidimensional view of shopping
+behavior.
+
+------------------------------------------------------------------------
+
+## 🧠 Project Conclusion
+
+**MarketLens** transforms transactional data into a structured consumer
+intelligence dashboard that goes beyond basic reporting.
+
+By combining demographic segmentation, transaction analysis, geographic
+spending patterns, high-value customer identification, product
+performance, and coupon engagement, the project provides a comprehensive
+view of **who customers are, how they spend, where value is generated,
+and how consumers respond to promotions**.
+
+The resulting insights can support more informed decisions in **customer
+segmentation, personalized marketing, loyalty and retention, product
+strategy, geographic targeting, and promotional optimization**.
+
+------------------------------------------------------------------------
+
+## 🔮 Future Enhancements
+
+Potential improvements include:
+
+-   Customer segmentation using RFM analysis
+-   Customer Lifetime Value (CLV) estimation
+-   Cohort-based retention analysis
+-   Predictive customer churn modeling
+-   Market-basket analysis for product recommendations
+-   Advanced geographic mapping
+-   Dynamic parameter-driven KPI selection
+-   Automated data refresh
+-   Integration with Python-based predictive models
+
+------------------------------------------------------------------------
+
+## 👤 Author
+
+**Rahul Kumar**
+
+Aspiring Data Analyst \| SQL \| Tableau \| Power BI \| Python \| Excel
+
+-   **GitHub:** `Add your GitHub profile link`
+-   **LinkedIn:** `Add your LinkedIn profile link`
+-   **Tableau Public:** `Add your Tableau Public profile link`
+
+------------------------------------------------------------------------
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a **star
+⭐**.
+
+Feedback and suggestions for improving the analysis or dashboard are
+welcome.
+
+------------------------------------------------------------------------
+
+### MarketLens
+
+**Turning consumer transactions into actionable customer intelligence.**
