@@ -395,13 +395,13 @@ This project demonstrates practical junior data analyst / BI skills in:
 ## 🌐 Live Dashboards
 
 1. **Executive Overview**  
-   [View Dashboard 1 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Executive_Overview)
+   [View Dashboard Part  1 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Executive_Overview)
 
 2. **Consumer Spending Insights**  
-   [View Dashboard 2 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Consumer_Spending_Insights)
+   [View Dashboard Part 2 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Consumer_Spending_Insights)
 
 3. **Engagement & Product Insights**  
-   [View Dashboard 3 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Engagement_Product_Insights)
+   [View Dashboard Part 3 on Tableau Public](https://public.tableau.com/app/profile/rahul.kumar5977/viz/Tableau_17848000919360/Engagement_Product_Insights)
 
 ## 📂 Dataset
 
