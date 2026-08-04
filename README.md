@@ -53,35 +53,50 @@ The primary objectives of MarketLens are to:
 
 
 
-## 📊 Dashboard Snapshot
+## 📊 Dashboard Snapshots
 
-![MarketLens Dashboard](images/marketlens-dashboard.png)
+### 🏆 Dashboard 1 – Executive Overview
 
-> Add your exported Tableau dashboard image to
-> `images/marketlens-dashboard.png` to display it here.
+![Executive Overview](Dashboard%20Part%201%20Executive_Overview.png)
 
-------------------------------------------------------------------------
+Provides a high-level overview of business performance through KPIs, monthly spending trends, regional product value, top-performing product categories, and customer composition.
+
+---
+
+### 👥 Dashboard 2 – Consumer Spending Insights
+
+![Consumer Spending Insights](Dashboard%20Part%202%20Consumer_Spending_Insights.png)
+
+Analyzes customer spending behavior across online and offline channels, gender, tenure groups, and geographic locations to understand customer purchasing patterns.
+
+---
+
+### 🎯 Dashboard 3 – Engagement & Product Insights
+
+![Engagement & Product Insights](Dashboard%20Part%203%20Engagement_Product_Insights.png)
+
+Evaluates coupon performance, discount strategies, product categories, and seasonal engagement trends using interactive business intelligence dashboards.
 
 ## 🔢 Key Performance Indicators
 
-The dashboard highlights four headline KPIs:
+The project contains **12 KPIs** across **3 dashboards**.
 
-| KPI                       |    Extracted value | Meaning                                              |
-| ------------------------- | -----------------: | ---------------------------------------------------- |
-| Total Revenue / Sales     |         **$4.67M** | Overall monetary value generated                     |
-| Total Transactions        |           **238K** | Total transaction volume represented in the analysis |
-| Average Transaction Value |         **$19.62** | Average value per transaction                        |
-| Best/Top Product SKU      | **GGOENEBJ079499** | Product SKU highlighted as a leading performer       |
+| Dashboard | KPI | Business Purpose |
+|---|---|---|
+| Executive Overview | Total Product Value ($4.67M) | Overall business value |
+| Executive Overview | Total Units Sold (238K) | Demand measurement |
+| Executive Overview | Average Value per Unit ($19.62) | Revenue efficiency |
+| Executive Overview | Top Product SKU | Best performing product |
+| Consumer Spending Insights | Total Customers (1,468) | Customer base |
+| Consumer Spending Insights | Average Customer Spend ($5,399) | Spending behaviour |
+| Consumer Spending Insights | Top Spending Region | Regional analysis |
+| Consumer Spending Insights | Average Customer Tenure (26 Months) | Loyalty analysis |
+| Engagement & Product Insights | Average Product Price ($52.24) | Pricing analysis |
+| Engagement & Product Insights | Average Discount (20%) | Discount strategy |
+| Engagement & Product Insights | Coupon Usage Rate (48.9%) | Promotion effectiveness |
+| Engagement & Product Insights | Top Product Category (Nest-USA) | Category performance |
 
-
-
-
-
-These KPIs provide an immediate overview of the scale, transaction
-activity, average consumer spend, and product performance represented in
-the analysis.
-
-
+---
 
 ## 📈 Dashboard Analysis
 
