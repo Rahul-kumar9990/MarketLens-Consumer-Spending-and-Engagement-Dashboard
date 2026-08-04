@@ -297,30 +297,7 @@ Insight Generation
 Business Recommendations
 ```
 
-------------------------------------------------------------------------
 
-## 🗂️ Suggested Repository Structure
-
-``` text
-MarketLens/
-│
-├── README.md
-├── data/
-│   └── dataset.csv
-│
-├── sql/
-│   └── marketlens_analysis.sql
-│
-├── tableau/
-│   └── MarketLens.twbx
-│
-├── images/
-│   ├── marketlens-dashboard.png
-│   └── dashboard-preview.png
-│
-└── docs/
-    └── project-insights.pdf
-```
 
 ------------------------------------------------------------------------
 
