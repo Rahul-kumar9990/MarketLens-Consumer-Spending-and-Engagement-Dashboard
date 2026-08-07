@@ -77,6 +77,16 @@ Analyzes customer spending behavior across online and offline channels, gender, 
 
 Evaluates coupon performance, discount strategies, product categories, and seasonal engagement trends using interactive business intelligence dashboards.
 
+
+## 🔗 Live Interactive Dashboard
+
+👉 [View the GeoInsights Power BI Dashboard](https://app.powerbi.com/groups/me/reports/292cb866-7b6b-4368-94ce-7c97905b975b/0cc83950cd1c03e98519?experience=power-bi)
+
+Explore the interactive report to analyze revenue, profitability, product and channel performance, customer insights, and U.S. regional trends.
+
+
+
+
 ## 🔢 Key Performance Indicators
 
 The project contains **12 KPIs** across **3 dashboards**.
